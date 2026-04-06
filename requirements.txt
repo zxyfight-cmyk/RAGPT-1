@@ -9,6 +9,7 @@ python-docx
 tqdm
 langchain-text-splitters
 requests
+sniffio
 
 numpy==1.26.4          # 保留 np.float_，彻底解决numpy报错
 protobuf==4.25.3
