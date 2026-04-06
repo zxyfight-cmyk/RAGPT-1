@@ -1,6 +1,6 @@
 streamlit
 sentence-transformers
-chromadb==0.4.24          # 稳定无报错版
+chromadb==0.4.24
 zhipuai
 python-dotenv
 pypdf
@@ -10,7 +10,7 @@ tqdm
 langchain-text-splitters
 requests
 
-# 强制修复 protobuf + 遥测模块冲突
+numpy==1.26.4          # 保留 np.float_，彻底解决numpy报错
 protobuf==4.25.3
 opentelemetry-api==1.24.0
 opentelemetry-sdk==1.24.0
